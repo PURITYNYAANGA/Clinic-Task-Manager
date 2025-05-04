@@ -16,3 +16,26 @@ A robust relational database schema that supports:
 - Assigning specializations to doctors
 - Booking appointments
 - Recording appointment payments
+
+Files Included
+- `clinic_system.sql`: Contains all `CREATE TABLE` statements and sample data inserts
+- All tables are structured with appropriate `PRIMARY KEY`, `FOREIGN KEY`, `UNIQUE`, and `NOT NULL` constraints
+- Inline comments included for clarity
+
+### 🔧 How to Set Up
+
+1. Open MySQL Workbench or your preferred SQL client
+2. Create a new database, e.g., `clinicdb`
+3. Import and run the `clinic_system.sql` file
+
+```sql
+CREATE DATABASE clinicdb;
+USE clinicdb;
+
+## 🧩 Entity-Relationship Diagram (ERD)
+
+![ERD](./erd.png)
+
+For an interactive version, visit: [dbdiagram.io](https://dbdiagram.io/d/your-diagram-id)
+
+-- Then run clinic_system.sql
